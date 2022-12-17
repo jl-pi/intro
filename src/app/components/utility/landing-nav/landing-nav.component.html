@@ -1,6 +1,6 @@
 <nav id="header" class="fixed w-full z-30 top-0 text-white">
     <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
-        <div onclick="window.location.hash=''" class="flex items-center">
+        <div onclick="window.location.href=''" class="flex items-center">
 
             <img src="assets/img/math-pi.svg" width="50" height="50" />
 
@@ -17,17 +17,20 @@
         <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
             id="nav-content">
             <ul class="list-reset lg:flex justify-end flex-1 items-center">
-                <!-- <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="#">Active</a>
-                </li> -->
+
                 <li class="mr-3">
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
                         href="#">CV</a>
                 </li>
                 <li class="mr-3">
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-                        href="shop">Shop</a>
+                        routerLink="shop">Shop</a>
                 </li>
+
+                <!-- <li *ngIf="router.url=='/blog'" class="mr-3">
+                    <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+                        routerLink="/Blog">Blog List</a>
+                </li> -->
             </ul>
 
             <button routerLink="blog" id="navAction"

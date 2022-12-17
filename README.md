@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+https://angular.io/cli/generate#service-command
+
+create a new model class:
+ng generate class className --type=model
+
+create a new service:
+ng g s
+
+create a new module:
+ng g module folderName --routing

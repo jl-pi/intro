@@ -12,9 +12,9 @@ const routes: Routes = [
     children: [
       { path: 'about', component: AboutComponent },
       { path: 'article', component: ArticleComponent },
-      // {
-      //   path: 'tag', loadChildren: () => import('./components/tag-crud/tag.module').then(m => m.TagModule)
-      // },
+      {
+        path: 'tag', loadChildren: () => import('./components/tag-crud/tag.module').then(m => m.TagModule)
+      },
     ]
   },
 
