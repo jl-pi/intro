@@ -14,3 +14,8 @@ const language = 'typescript';
 
 ### Blockquote
 > Blockquote to the max
+
+
+```math
+$x^2 = \sqrt{y}$
+```

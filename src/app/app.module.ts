@@ -17,6 +17,12 @@ import { LandingNavComponent } from './components/utility/landing-nav/landing-na
 import { LandingPortfolioComponent } from './components/utility/landing-portfolio/landing-portfolio.component';
 import { FooterComponent } from './components/utility/footer/footer.component';
 import { MarkdownModule } from 'ngx-markdown';
+import { PostComponent } from './components/post/post.component';
+
+import 'prismjs';
+import 'prismjs/components/prism-typescript.min.js';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.js';
+import 'prismjs/plugins/line-highlight/prism-line-highlight.js';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +35,7 @@ import { MarkdownModule } from 'ngx-markdown';
     LandingPortfolioComponent,
 
     FooterComponent,
+    PostComponent,
   ],
   imports: [
     BrowserModule,

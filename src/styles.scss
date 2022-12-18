@@ -1,7 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+
+
 html,
 body {
     min-height: 100vh;
     height: auto;
     margin: 0;
+}
+
+.gradient {
+
+    background: linear-gradient(90deg, #0093E9 0%, #80D0C7 100%);
+
 }
