@@ -26,8 +26,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
-
-
 https://angular.io/cli/generate#service-command
 
 create a new model class:
@@ -38,5 +36,8 @@ ng g s
 
 create a new module:
 ng g module folderName --routing
+
+Deploy: build first on local then push to github
+pnpm build
 
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
