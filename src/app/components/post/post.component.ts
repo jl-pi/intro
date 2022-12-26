@@ -1,4 +1,5 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-post',
@@ -6,6 +7,11 @@ import { Component, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./post.component.scss'],
   encapsulation: ViewEncapsulation.ShadowDom,
 })
-export class PostComponent {
+export class PostComponent implements OnInit {
+  @Input() postName: string = '';
+  constructor() {}
 
+  ngOnInit(): void {
+    console.log(this.postName);
+  }
 }
