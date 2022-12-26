@@ -10,7 +10,7 @@ export class TokenInterceptor implements HttpInterceptor {
     if (isApiUrl) {
       req = req.clone({
         setHeaders: {
-          Authorization: `Bearer keyTPD1HD0TKr99WX`,
+          Authorization: `Bearer keyh0JMkQGkgUZ5Dy`,
         },
       });
     }
