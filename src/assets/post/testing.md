@@ -1,12 +1,3 @@
----
-title: Category-Partition Method
-published: false
-description:
-tags:
-cover_image:
-canonical_url:
----
-
 # Category-Partition Method
 
 ## Steps:
